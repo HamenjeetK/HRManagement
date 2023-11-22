@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="355.0" prefWidth="422.0" spacing="20.0" style="-fx-background-color: LIGHTGREY; -fx-border-color: BLACK;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hr_management.logincontroller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <TextField fx:id="user" style="-fx-border-color: black;" text="username" />
+   <TextField fx:id="pswd" layoutX="30.0" layoutY="30.0" style="-fx-border-color: black;" text="password" />
+    <Button alignment="CENTER" contentDisplay="CENTER" onAction="#LoginButtonClick" style="-fx-border-color: black; -fx-background-color: LIGHTBLUE;" text="LOGIN" />
+   <Label fx:id="text"/>
+</VBox>
